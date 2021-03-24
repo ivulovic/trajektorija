@@ -190,7 +190,7 @@
   .footer-content {
     border-top: 1px solid var(--shadow-light);
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     max-width: 1366px;
@@ -226,6 +226,10 @@
   }
 
   @media (max-width: 480px) {
+    .container {
+      min-height: 76vh;
+    }
+
     .copy {
       top: 2px;
       position: relative;
@@ -241,9 +245,28 @@
       align-items: center;
     }
 
+    .title {
+      font-size: 18px;
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+
+    .link {
+      font-size: 14px;
+    }
+
     footer .copyright-link,
     footer p {
       font-size: 10px;
+    }
+
+    .center-logo h1 {
+      font-size: 26px;
+      letter-spacing: 1px;
     }
   }
 </style>
