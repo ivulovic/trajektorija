@@ -72,14 +72,14 @@
 		padding: 6px 12px;
 		overflow: auto;
 		border-radius: 4px;
+		line-height: 20px;
 		background-color: var(--background-light);
 		color: var(--text);
 		box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
 	}
 
-	.content :global(pre) :global(code) {
+	.content :global(code) :global(pre) {
 		font-family: monospace;
-		background-color: transparent;
 	}
 
 	h1 {
