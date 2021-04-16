@@ -58,10 +58,6 @@
 		padding-bottom: 12px;
 		border-bottom: 1px solid var(--shadow-light);
 	}
-	.articles-list > :global(.article-medium) {
-		grid-template-columns: 1fr 3fr;
-	}
-
 	.no-content {
 		font-size: 22px;
 		line-height: 30px;
@@ -81,12 +77,6 @@
 	}
 	/* Mobile */
 	@media (max-width: 480px) {
-		.articles-list > :global(.article-medium) {
-			grid-template-columns: 1fr !important;
-		}
-		.articles-list > :global(.article-medium .image) {
-			display: none;
-		}
 		.articles-list > :global(a):not(:last-child) {
 			padding-bottom: 6px;
 		}

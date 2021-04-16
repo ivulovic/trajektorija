@@ -6,27 +6,18 @@
 
   export let title;
   export let description;
-  export let image;
   export let slug;
   export let categories;
   export let category;
-
-  export let inverted = false;
 </script>
 
 <style>
   .article-medium {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 12px;
+    width: 100%;
     min-height: 115px;
     -webkit-tap-highlight-color: transparent;
-  }
-  .image {
-    background-position: center;
-    background-size: cover;
-    background-size: contain;
-    background-repeat: no-repeat;
   }
   .title {
     font-size: 22px;
@@ -102,9 +93,6 @@
   rel="prefetch"
   class="article-medium"
   in:fade={{ duration: 250 }}>
-  {#if !inverted}
-    <div class="image" style="background-image:url('{image}')" />
-  {/if}
   <div class="details">
     <h1 class="title">{title}</h1>
     <p class="description">{description}</p>
@@ -122,7 +110,4 @@
       <ButtonReadMore link={slug} />
     </div>
   </div>
-  {#if inverted}
-    <div class="image" style="background-image:url('{image}')" />
-  {/if}
 </a>
