@@ -10,7 +10,7 @@ const posts = [
     html: Articles.privatnost,
     slug: 'privatnost',
     categories: [Categories.PRIVATNOST],
-    date: 1618263265064,
+    date: 1619039210087,
   },
   {
     title: 'Гитхаб акције и рударење криптовалута',
