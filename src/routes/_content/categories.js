@@ -3,6 +3,7 @@ const Categories = {
   GITHUB: { id: 'github', label: 'Гитхаб' },
   KRIPTOVALUTE: { id: 'kriptovalute', label: 'Криптовалуте' },
   BEZBEDNOST: { id: 'bezbednost', label: 'Безбедност' },
+  PRIVATNOST: { id: 'privatnost', label: 'Приватност' },
   // SVELTE: { id: 'svelte', label: 'Свелт' },
   // SAPPER: { id: 'sapper', label: 'Сапер' },
   // NAMECHEAP: { id: 'namecheap', label: 'Нејмчип' },
