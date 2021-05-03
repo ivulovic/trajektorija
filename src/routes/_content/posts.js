@@ -5,6 +5,14 @@ const websiteUrl = "https://trajektorija.com";
 
 const posts = [
   {
+    title: 'Испитивање реактивности у Риекту',
+    description: `О реактивности и како се Риект носи с тим`,
+    html: Articles.ispitivanjeReaktivnostiUReactu,
+    slug: 'ispitivanje-reaktivnosti-u-reactu',
+    categories: [Categories.REAKTIVNOST, Categories.REACT],
+    date: 1620071150231,
+  },
+  {
     title: 'Приватност',
     description: `О непостојећој интернет приватности`,
     html: Articles.privatnost,

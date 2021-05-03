@@ -23,6 +23,7 @@
 		margin: 6px 0px 6px 0px;
 		position: relative;
 	}
+
 	.content :global(p),
 	.content :global(li) {
 		line-height: 28px;
