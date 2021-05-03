@@ -69,7 +69,7 @@
       font-size: 10px;
     }
     .chart-vertical {
-      height: 150px;
+      padding-top: 28px;
     }
     .chart-vertical .chart-bar {
       margin-right: 5px;
