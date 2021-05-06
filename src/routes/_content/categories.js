@@ -6,7 +6,7 @@ const Categories = {
   PRIVATNOST: { id: 'privatnost', label: 'Приватност' },
   REAKTIVNOST: { id: 'reaktivnost', label: 'Реактивност' },
   REACT: { id: 'react', label: 'Риект' },
-  // SVELTE: { id: 'svelte', label: 'Свелт' },
+  SVELTE: { id: 'svelte', label: 'Свелт' },
   // SAPPER: { id: 'sapper', label: 'Сапер' },
   // NAMECHEAP: { id: 'namecheap', label: 'Нејмчип' },
 }

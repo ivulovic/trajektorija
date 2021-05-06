@@ -5,6 +5,14 @@ const websiteUrl = "https://trajektorija.com";
 
 const posts = [
   {
+    title: 'Свелт и његова реактивност',
+    description: `О потезима које је Свелт повукао да би постао реактиван`,
+    html: Articles.svelteINjegovaReaktivnost,
+    slug: 'svelte-i-njegova-reaktivnost',
+    categories: [Categories.REAKTIVNOST, Categories.SVELTE],
+    date: 1620341319309,
+  },
+  {
     title: 'Испитивање реактивности у Риекту',
     description: `О реактивности и како се Риект носи с тим`,
     html: Articles.ispitivanjeReaktivnostiUReactu,

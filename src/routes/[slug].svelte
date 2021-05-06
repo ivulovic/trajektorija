@@ -78,7 +78,9 @@
 		color: var(--text);
 		box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
 	}
-
+	.content :global(code.inline) {
+		display: inline-block;
+	}
 	.content :global(code) :global(pre) {
 		font-family: monospace;
 	}
