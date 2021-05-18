@@ -7,6 +7,7 @@ const Categories = {
   REAKTIVNOST: { id: 'reaktivnost', label: 'Реактивност' },
   REACT: { id: 'react', label: 'Риект' },
   SVELTE: { id: 'svelte', label: 'Свелт' },
+  // BIBLIOTEKA: { id: 'biblioteka', label: 'Библиотека' },
   // SAPPER: { id: 'sapper', label: 'Сапер' },
   // NAMECHEAP: { id: 'namecheap', label: 'Нејмчип' },
 }

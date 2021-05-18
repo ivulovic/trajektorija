@@ -3,6 +3,7 @@ import githubAkcijeIRudarenjeKriptovaluta from './github-akcije-i-rudarenje-krip
 import privatnost from './privatnost';
 import ispitivanjeReaktivnostiUReactu from './ispitivanje-reaktivnosti-u-reactu';
 import svelteINjegovaReaktivnost from './svelte-i-njegova-reaktivnost';
+import prilagodjeniSvelteElementi from './prilagodjeni-svelte-elementi';
 
 export {
   nastanakTrajektorije,
@@ -10,4 +11,5 @@ export {
   privatnost,
   ispitivanjeReaktivnostiUReactu,
   svelteINjegovaReaktivnost,
+  prilagodjeniSvelteElementi
 };

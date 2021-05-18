@@ -5,6 +5,14 @@ const websiteUrl = "https://trajektorija.com";
 
 const posts = [
   {
+    title: 'Прилагођени Свелт елементи',
+    description: `О идеји и употреби прилагођених елемената`,
+    html: Articles.prilagodjeniSvelteElementi,
+    slug: 'prilagodjeni-svelte-elementi',
+    categories: [Categories.SVELTE, Categories.REACT],
+    date: 1621364309650,
+  },
+  {
     title: 'Свелт и његова реактивност',
     description: `О потезима које је Свелт повукао да би постао реактиван`,
     html: Articles.svelteINjegovaReaktivnost,

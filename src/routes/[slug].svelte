@@ -69,8 +69,9 @@
 		margin: 0 auto;
 		max-width: 100%;
 	}
+	.content :global(.code),
 	.content :global(pre) {
-		padding: 6px 12px;
+		padding: 6px 10px;
 		overflow: auto;
 		border-radius: 4px;
 		line-height: 20px;
@@ -78,9 +79,13 @@
 		color: var(--text);
 		box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
 	}
-	.content :global(code.inline) {
+	.content :global(.inline) {
 		display: inline-block;
 	}
+	.content :global(span.code) {
+		white-space: nowrap;
+	}
+	.content :global(.code),
 	.content :global(code) :global(pre) {
 		font-family: monospace;
 	}
