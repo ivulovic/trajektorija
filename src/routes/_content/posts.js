@@ -5,6 +5,14 @@ const websiteUrl = "https://trajektorija.com";
 
 const posts = [
   {
+    title: 'Библиотека прилагођених елемената',
+    description: `О процесу изградње библиотеке састављене од неограниченог броја елемената`,
+    html: Articles.bibliotekaPrilagodjenihElemenata,
+    slug: 'biblioteka-prilagodjenih-elemenata',
+    categories: [Categories.SVELTE, Categories.ROLLUP],
+    date: 1623360366065,
+  },
+  {
     title: 'Прилагођени Свелт елементи',
     description: `О идеји и употреби прилагођених елемената`,
     html: Articles.prilagodjeniSvelteElementi,

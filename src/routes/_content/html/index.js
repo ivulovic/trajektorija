@@ -4,6 +4,7 @@ import privatnost from './privatnost';
 import ispitivanjeReaktivnostiUReactu from './ispitivanje-reaktivnosti-u-reactu';
 import svelteINjegovaReaktivnost from './svelte-i-njegova-reaktivnost';
 import prilagodjeniSvelteElementi from './prilagodjeni-svelte-elementi';
+import bibliotekaPrilagodjenihElemenata from './biblioteka-prilagodjenih-elemenata';
 
 export {
   nastanakTrajektorije,
@@ -11,5 +12,6 @@ export {
   privatnost,
   ispitivanjeReaktivnostiUReactu,
   svelteINjegovaReaktivnost,
-  prilagodjeniSvelteElementi
+  prilagodjeniSvelteElementi,
+  bibliotekaPrilagodjenihElemenata
 };

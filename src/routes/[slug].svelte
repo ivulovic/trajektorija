@@ -15,6 +15,7 @@
 
 <script>
 	import { fade } from "svelte/transition";
+	import DeprecatedWarning from "../components/DeprecatedWarning.svelte";
 	export let post;
 </script>
 
@@ -156,6 +157,9 @@
 
 <div in:fade={{ duration: 250 }}>
 	<h1>{post.title}</h1>
+
+	<DeprecatedWarning date={post.date} />
+
 	<div class="content">
 		{@html post.html}
 	</div>
