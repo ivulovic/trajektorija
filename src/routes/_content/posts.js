@@ -5,6 +5,14 @@ const websiteUrl = "https://trajektorija.com";
 
 const posts = [
   {
+    title: 'Гранични прелаз Веб',
+    description: `О досадашњем искуству и раду са постављањем апликација`,
+    html: Articles.granicniPrelazWeb,
+    slug: 'granicni-prelaz-web',
+    categories: [Categories.DEVOPS],
+    date: 1625688803910,
+  },
+  {
     title: 'Библиотека прилагођених елемената',
     description: `О процесу изградње библиотеке састављене од неограниченог броја елемената`,
     html: Articles.bibliotekaPrilagodjenihElemenata,

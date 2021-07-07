@@ -8,6 +8,8 @@ const Categories = {
   REACT: { id: 'react', label: 'Риект' },
   SVELTE: { id: 'svelte', label: 'Свелт' },
   ROLLUP: { id: 'rollup', label: 'Ролап' },
+  DEVOPS: { id: 'devops', label: 'Девопс' },
+  // NGINX: { id: 'nginx', label: 'Енџин икс' },
   // SAPPER: { id: 'sapper', label: 'Сапер' },
   // NAMECHEAP: { id: 'namecheap', label: 'Нејмчип' },
 }

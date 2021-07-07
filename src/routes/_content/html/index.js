@@ -5,6 +5,7 @@ import ispitivanjeReaktivnostiUReactu from './ispitivanje-reaktivnosti-u-reactu'
 import svelteINjegovaReaktivnost from './svelte-i-njegova-reaktivnost';
 import prilagodjeniSvelteElementi from './prilagodjeni-svelte-elementi';
 import bibliotekaPrilagodjenihElemenata from './biblioteka-prilagodjenih-elemenata';
+import granicniPrelazWeb from './granicni-prelaz-web';
 
 export {
   nastanakTrajektorije,
@@ -13,5 +14,6 @@ export {
   ispitivanjeReaktivnostiUReactu,
   svelteINjegovaReaktivnost,
   prilagodjeniSvelteElementi,
-  bibliotekaPrilagodjenihElemenata
+  bibliotekaPrilagodjenihElemenata,
+  granicniPrelazWeb
 };
